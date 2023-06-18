@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "poetry-authentication-service"
+version = "0.1.0"
+description = ""
+authors = ["ridwanray <alabarise@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dj-database-url = "0.5.0"
+django = "4.0.6"
+django-cors-headers = "3.13.0"
+django-filter = "22.1"
+psycopg2-binary = "2.9.3"
+python-decouple = "3.6"
+celery = "5.2.7"
+flower = "1.1.0"
+djangorestframework = "3.13.1"
+djangorestframework-simplejwt = "5.2.0"
+drf-spectacular = "0.22.1"
+faker = "13.15.0"
+pillow = "9.5.0"
+pytest-django = "4.5.2"
+pytest-xdist = "2.5.0"
+factory-boy = "3.2.0"
+pytest-factoryboy = "2.5.0"
+pytest-mock = "3.8.2"
+time-machine = "2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
